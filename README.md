@@ -1,5 +1,3 @@
-# Animal-shelter
-Webová prezentace útulku pro zvířata. Technologie: HTML, CSS, JavaScript, PHP.
 
 # Animal Shelter Website 🐶🐱
 

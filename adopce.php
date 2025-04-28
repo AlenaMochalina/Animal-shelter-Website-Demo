@@ -6,13 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Dary a dobrovolnictví</h1>
-    <p>Uvítáme pomoc při venčení pejsků, péči o kočky, úklidu útulku nebo při organizaci akcí. <br> <br>
-    Přispět můžete finančně nebo materiálně – oceníme krmivo, deky, hračky, vodítka, misky i čisticí prostředky.  <br> <br>
-     Napiště nám, jakou pomoc nám můžete nabídnout.
+    <h1> Naši kamarádi hledají domov</h1>
 
-    </p>
-    <h2>Vyplnte formulář a my se Vám ozveme</h2>
+    <p>Podívejte se na naše úžasné chlupaté kamarády, kteří čekají na nový domov.
+        Pokud vás některý z nich zaujal, neváhejte vyplnit adopční formulář.</p>
+        <h2>Adopční formulář</h2>
     <form>
         <input type="text" name="first_name" placeholder="Křestní jméno"><br>
         <input type="text" name="second_name" placeholder="Příjmení"><br>
@@ -23,6 +21,6 @@
         <!-- <input type="submit" value="Registrovat"> -->
         <button>Odeslat</button>
      </form> <br> <br>
-    <a href="index.html">Zpět na úvodní stránku</a>
+    <a href="úvodní stránka.html">Zpět na úvodní stránku</a> 
 </body>
 </html>

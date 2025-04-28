@@ -21,8 +21,18 @@ h2{
 
 h3{
     color: rgb(255, 217, 0);
+    font-size: 25px;
 }
 
 img{
     border-radius: 15px;
+}
+
+a{
+    text-decoration: none;
+    background: rgb(255, 110, 6);
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    font-size: 20px;
 }

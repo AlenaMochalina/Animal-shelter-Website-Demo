@@ -21,6 +21,6 @@
         <!-- <input type="submit" value="Registrovat"> -->
         <button>Odeslat</button>
      </form> <br> <br>
-    <a href="úvodní stránka.html">Zpět na úvodní stránku</a> 
+    <a href="úvodní stránka.php">Zpět na úvodní stránku</a> 
 </body>
 </html>

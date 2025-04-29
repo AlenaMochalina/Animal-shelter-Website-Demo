@@ -37,7 +37,7 @@
        
          <br>
 
-    <a href="dary a dobrovolnictví.html">Chci pomáhat</a>
+    <a href="dary a dobrovolnictví.php">Chci pomáhat</a>
 
 
      <h3>Finanční a materiální dary</h3>

@@ -14,6 +14,15 @@
 
     echo "Přihlášení do databáze.";
 
+    $sql = "SELECT Druh FROM adopce";
+    echo "<br>";
+
+    $result = mysqli_query($connection, $sql);
+    var_dump($result);
+    echo "<br>";
+    echo "<br>";
+    $animals = mysqli_fetch_all ($result);
+    var_dump($animals);
 ?>
 
 <!DOCTYPE html>

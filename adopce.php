@@ -1,3 +1,21 @@
+<?php
+
+    $db_host = "127.0.0.1";
+    $db_user = "AlenaMochalina";
+    $db_password = "admin123";
+    $db_name = "zvířata";
+
+    $connection = mysqli_connect($db_host,$db_user,$db_password, $db_name);
+
+    if (mysqli_connect_error()){
+        echo mysqli_connect_error();
+        exit;
+    }
+
+    echo "Přihlášení do databáze.";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

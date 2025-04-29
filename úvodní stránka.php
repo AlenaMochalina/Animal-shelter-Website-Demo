@@ -25,7 +25,7 @@
         <img src="shelter-1.jpg" style="width:20%;" alt="">
         <img src="shelter-2.jpg" style="width:20%;" alt="">
         <img src="shelter-6.jpg" style="width: 20%;" alt=""> <br>
-    <a href="adopce.html">Chci adoptovat</a>
+    <a href="adopce.php">Chci adoptovat</a>
    
         
     <h3>Dobrovolnictví</h3>

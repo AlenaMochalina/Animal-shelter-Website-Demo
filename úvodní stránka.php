@@ -45,9 +45,12 @@
         Přispět můžete finančně nebo materiálně – oceníme krmivo, deky, hračky, vodítka, misky i čisticí prostředky.</p>
         <img src="shelter-11.jpg " style="width:10%;" alt="">
     <img src="shelter-10.jpg" style="width:10%;" alt=""> 
+    <img src="shelter-14.jpg" style="width:10%;" alt="">
+    <img src="shelter-13.jpg" style="width:10%;" alt="">
+    <img src="shelter-15.jpg" style="width:10%;" alt="">
     <img src="shelter-3.jpg" style="width:9.65%;" alt=""><br>
-     <a href="dary a dobrovolnictví.html">Chci přispět</a>
-
+     <a href="dary a dobrovolnictví.php">Chci přispět</a> <br>
+     
      <h3>Děkujeme</h3>
      <p>Díky Vám můžeme měnit životy k lepšímu.  
         Vaše pomoc je pro naše svěřence nadějí na nový začátek. Děkujeme, že jste s námi!</p>       
@@ -60,7 +63,7 @@
     <img src="shelter-8.jpg " style="width:10%;" alt=""> <br>
 
     
-    <iframe width="320" height="175" src="https://www.youtube.com/embed/eCOdMdWbP_4?si=XyJM4ZFcvIRe9fmv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
 
 </body>
 </html>

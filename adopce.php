@@ -12,31 +12,36 @@
         exit;
     }
 
-    echo "Přihlášení do databáze.";
+   // echo "Přihlášení do databáze.";
 
     $sql = "SELECT Druh FROM adopce";
-    echo "<br>";
+    //echo "<br>";
 
     $result = mysqli_query($connection, $sql);
-    var_dump($result);
-    echo "<br>";
-    echo "<br>";
+   //var_dump($result);
+    //echo "<br>";
+    //echo "<br>";
     $animals = mysqli_fetch_all ($result);
-    var_dump($animals);
+    //var_dump($animals);
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <h1> Naši kamarádi hledají domov</h1>
-
+    <img src="shelter-16.jpg" style="width:20%;" alt="">
+    <img src="shelter-17.jpg" style="width:20%;" alt="">
+    <img src="shelter-18.jpg" style="width:20%;" alt="">
     <p>Podívejte se na naše úžasné chlupaté kamarády, kteří čekají na nový domov.
         Pokud vás některý z nich zaujal, neváhejte vyplnit adopční formulář.</p>
+
+
         <h2>Adopční formulář</h2>
     <form>
         <input type="text" name="first_name" placeholder="Křestní jméno"><br>

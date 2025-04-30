@@ -7,11 +7,13 @@
     <title>Psí a kočičí útulek</title>
 </head>
 <body>
-    <header>
+<header>
         <img src="shelter-7.jpg" style="width:100%;" alt="Psí a kočičí útulek ">
     </header>
-    <h1>Psí a kočičí útulek <br> <br> Nový domov </h1>
-   
+    <h1>Psí a kočičí útulek <br> <br> <em>Nový domov</em></h1>
+
+    <div class ="container">
+    
     <p>Naším posláním je najít nový, milující domov pro opuštěné psy a kočky.</p>
     <p>Prohlédněte si naši aktuální nabídku zvířátek k adopci,  
         přečtěte si, jak můžete pomoci, nebo nás rovnou kontaktujte. <br> Každá pomoc se počítá – ať už jde o domov, dobrovolnictví nebo podporu.</p>
@@ -54,15 +56,15 @@
      <h3>Děkujeme</h3>
      <p>Díky Vám můžeme měnit životy k lepšímu.  
         Vaše pomoc je pro naše svěřence nadějí na nový začátek. Děkujeme, že jste s námi!</p>       
-        <img src="shelter-9.jpg" style="width:20%;" alt=""> <br>
+        <img src="shelter-9.jpg" style="width:30%;" alt=""> <br>
     
 
 
         <hr>
     <h3>Kontakt</h3>
-    <img src="shelter-8.jpg " style="width:10%;" alt=""> <br>
+    <img src="shelter-8.jpg " style="width:15%;" alt=""> <br>
 
-    
+    </div>
     
 
 </body>

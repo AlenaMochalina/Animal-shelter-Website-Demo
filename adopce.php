@@ -35,6 +35,7 @@
 </head>
 <body>
     <h1> Naši kamarádi hledají domov</h1>
+    <div class ="container">
     <img src="shelter-16.jpg" style="width:20%;" alt="">
     <img src="shelter-17.jpg" style="width:20%;" alt="">
     <img src="shelter-18.jpg" style="width:20%;" alt="">
@@ -54,5 +55,6 @@
         <button>Odeslat</button>
      </form> <br> <br>
     <a href="úvodní stránka.php">Zpět na úvodní stránku</a> 
+    </div>
 </body>
 </html>

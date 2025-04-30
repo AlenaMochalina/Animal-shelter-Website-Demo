@@ -8,6 +8,8 @@
 </head>
 <body>
 <h1>Dary a dobrovolnictví</h1>
+
+<div class ="container">
     <p>Uvítáme pomoc při venčení pejsků, péči o kočky, úklidu útulku nebo při organizaci akcí. <br> <br>
     Přispět můžete finančně nebo materiálně – oceníme krmivo, deky, hračky, vodítka, misky i čisticí prostředky.  <br> <br>
      Napiště nám, jakou pomoc nám můžete nabídnout.
@@ -25,5 +27,6 @@
         <button>Odeslat</button>
      </form> <br> <br>
     <a href="úvodní stránka.php">Zpět na úvodní stránku</a>
-</body>
+</div>
+        
 </html>

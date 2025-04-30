@@ -9,8 +9,13 @@
 <body>
 <header>
         <img src="shelter-7.jpg" style="width:100%;" alt="Psí a kočičí útulek ">
+        <h1>Psí a kočičí útulek <br> <br> <em>Nový domov</em></h1>
+
     </header>
-    <h1>Psí a kočičí útulek <br> <br> <em>Nový domov</em></h1>
+
+    <main>
+
+   
 
     <div class ="container">
     
@@ -23,7 +28,8 @@
 
     <h3>Adopce</h3>
     <p>Dejte šanci novému příteli a adoptujte pejska nebo kočičku z našeho útulku.  
-        Adopce zachraňuje životy a přináší radost nejen zvířatům, ale i Vám.</p>
+        Adopce zachraňuje životy a přináší radost nejen zvířatům, <br>
+        ale i Vám.</p>
         <img src="shelter-1.jpg" style="width:20%;" alt="">
         <img src="shelter-2.jpg" style="width:20%;" alt="">
         <img src="shelter-6.jpg" style="width: 20%;" alt=""> <br>
@@ -57,15 +63,18 @@
      <p>Díky Vám můžeme měnit životy k lepšímu.  
         Vaše pomoc je pro naše svěřence nadějí na nový začátek. Děkujeme, že jste s námi!</p>       
         <img src="shelter-9.jpg" style="width:30%;" alt=""> <br>
+        
+
     
-
-
         <hr>
     <h3>Kontakt</h3>
     <img src="shelter-8.jpg " style="width:15%;" alt=""> <br>
-
+    </main>
     </div>
     
+    <footer>
+
+    </footer>
 
 </body>
 </html>

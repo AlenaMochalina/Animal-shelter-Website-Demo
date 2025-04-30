@@ -34,8 +34,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Naši kamarádi hledají domov</h1>
+    
     <div class ="container">
+    <h1> Naši kamarádi hledají domov</h1>
     <img src="shelter-16.jpg" style="width:20%;" alt="">
     <img src="shelter-17.jpg" style="width:20%;" alt="">
     <img src="shelter-18.jpg" style="width:20%;" alt="">

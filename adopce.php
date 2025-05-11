@@ -12,13 +12,13 @@
         exit;
     }
 
-   // echo "Přihlášení do databáze.";
+    echo "Přihlášení do databáze.";
 
     $sql = "SELECT Druh FROM adopce";
     //echo "<br>";
 
     $result = mysqli_query($connection, $sql);
-   //var_dump($result);
+    //var_dump($result);
     //echo "<br>";
     //echo "<br>";
     $animals = mysqli_fetch_all ($result);
@@ -43,8 +43,34 @@
     <p>Podívejte se na naše úžasné chlupaté kamarády, kteří čekají na nový domov.
         Pokud vás některý z nich zaujal, neváhejte vyplnit adopční formulář.</p>
 
+     <h3>Seznam zvířat k adopci</h2>
+     <?php
+     // Dotaz na 7 zvířat
+$sql = "SELECT Plemeno, Popis, Věk FROM adopce LIMIT 7";
+$result = mysqli_query($connection, $sql);
 
-        <h2>Adopční formulář</h2>
+     // HTML tabulka
+echo "<table border='1'>";
+echo "<tr><th>Plemeno</th><th>Popis</th><th>Věk</th></tr>";
+
+if (mysqli_num_rows($result) > 0) {
+    while($row = mysqli_fetch_assoc($result)) {
+        echo "<tr>";
+        echo "<td>" . htmlspecialchars($row["Plemeno"]) . "</td>";
+        echo "<td>" . htmlspecialchars($row["Popis"]) . "</td>";
+        echo "<td>" . htmlspecialchars($row["Věk"]) . "</td>";
+        echo "</tr>";
+    }
+} else {
+    echo "<tr><td colspan='4'>Žádná zvířata k adopci nebyla nalezena.</td></tr>";
+}
+
+echo "</table>";
+
+mysqli_close($connection);
+?>
+
+     <h2>Adopční formulář</h2>
     <form>
         <input type="text" name="first_name" placeholder="Křestní jméno"><br>
         <input type="text" name="second_name" placeholder="Příjmení"><br>

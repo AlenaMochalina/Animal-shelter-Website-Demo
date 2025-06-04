@@ -5,6 +5,11 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psí a kočičí útulek</title>
+
+    <div style="background:#f2f2f2; padding: 20px; padding: 10px; text-align: center;">
+  <strong>Toto je ukázková verze webu útulku vytvořená pro portfolio.</strong>
+</div>
+
 </head>
 <body>
 <header>
@@ -77,4 +82,10 @@
     </footer>
 
 </body>
+
+<footer style="background-color: #f2f2f2; padding: 20px; text-align: center; font-size: 14px; color: #555;">
+  <h><em><br>Demo web vytvořený pro portfolio – nejedná se o skutečný web útulku.</em></br></h>
+  <h>Design a vývoj: Alena Mochalina. Tento web slouží pouze jako ukázka práce.</h>
+</footer>
+
 </html>

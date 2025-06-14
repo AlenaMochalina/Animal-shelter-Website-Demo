@@ -27,7 +27,7 @@
         <!-- <input type="submit" value="Registrovat"> -->
         <button>Odeslat</button>
      </form> <br> <br>
-    <a href="úvodní stránka.php">Zpět na úvodní stránku</a>
+    <a href="mainPage.php">Zpět na úvodní stránku</a>
 </div>
         
 </html>

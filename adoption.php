@@ -46,16 +46,19 @@
      <h3>Seznam zvířat k adopci</h2>
      <?php
      // Dotaz na 7 zvířat
-$sql = "SELECT Plemeno, Popis, Věk FROM adopce LIMIT 7";
+$sql = "SELECT Plemeno, Popis, Věk, obrazek FROM adopce LIMIT 7";
 $result = mysqli_query($connection, $sql);
 
      // HTML tabulka
 echo "<table border='1'>";
-echo "<tr><th>Plemeno</th><th>Popis</th><th>Věk</th></tr>";
+echo "<tr><th>Fotografie</th><th>Plemeno</th><th>Popis</th><th>Věk</th></tr>";
 
 if (mysqli_num_rows($result) > 0) {
     while($row = mysqli_fetch_assoc($result)) {
         echo "<tr>";
+         // Cesta k obrázkům 
+        $cestaKObrazku = "../image-library/" . htmlspecialchars($row["obrazek"]);
+        echo "<td><img src='" . $cestaKObrazku . "' alt='zvíře' width='100'></td>";
         echo "<td>" . htmlspecialchars($row["Plemeno"]) . "</td>";
         echo "<td>" . htmlspecialchars($row["Popis"]) . "</td>";
         echo "<td>" . htmlspecialchars($row["Věk"]) . "</td>";
@@ -63,6 +66,7 @@ if (mysqli_num_rows($result) > 0) {
     }
 } else {
     echo "<tr><td colspan='4'>Žádná zvířata k adopci nebyla nalezena.</td></tr>";
+    
 }
 
 echo "</table>";
@@ -81,7 +85,11 @@ mysqli_close($connection);
         <!-- <input type="submit" value="Registrovat"> -->
         <button>Odeslat</button>
      </form> <br> <br>
-    <a href="úvodní stránka.php">Zpět na úvodní stránku</a> 
+    <a href="mainPage.php">Zpět na úvodní stránku</a> 
+    <br>
+    <br>
+    <br>
+    <br>
     </div>
 </body>
 </html>

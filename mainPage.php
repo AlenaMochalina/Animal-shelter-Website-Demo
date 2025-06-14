@@ -37,8 +37,8 @@
         ale i Vám.</p>
         <img src="shelter-1.jpg" style="width:20%;" alt="">
         <img src="shelter-2.jpg" style="width:20%;" alt="">
-        <img src="shelter-6.jpg" style="width: 20%;" alt=""> <br>
-    <a href="adopce.php">Chci adoptovat</a>
+        <img src="shelter-19.jpg" style="width: 20%;" alt=""> <br>
+    <a href="adoption.php">Chci adoptovat</a>
    
         
     <h3>Dobrovolnictví</h3>
@@ -50,7 +50,7 @@
        
          <br>
 
-    <a href="dary a dobrovolnictví.php">Chci pomáhat</a>
+    <a href="donations.php">Chci pomáhat</a>
 
 
      <h3>Finanční a materiální dary</h3>
@@ -62,7 +62,7 @@
     <img src="shelter-13.jpg" style="width:10%;" alt="">
     <img src="shelter-15.jpg" style="width:10%;" alt="">
     <img src="shelter-3.jpg" style="width:9.65%;" alt=""><br>
-     <a href="dary a dobrovolnictví.php">Chci přispět</a> <br>
+     <a href="donations.php">Chci přispět</a> <br>
      
      <h3>Děkujeme</h3>
      <p>Díky Vám můžeme měnit životy k lepšímu.  

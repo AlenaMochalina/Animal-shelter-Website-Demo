@@ -28,6 +28,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Lightbox2 CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+<!-- Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -78,12 +84,12 @@ mysqli_close($connection);
 
      <h2>Adopční formulář</h2>
     <form>
-        <input type="text" name="first_name" placeholder="Křestní jméno"><br>
-        <input type="text" name="second_name" placeholder="Příjmení"><br>
-        <input type="email" name="email" placeholder="E-mail"><br>
-        <input type="telefon" name="telenon" placeholder="Telefon"><br>
+        <input type="text" name="first_name" placeholder="Křestní jméno"><br> <br>
+        <input type="text" name="second_name" placeholder="Příjmení"><br> <br>
+        <input type="email" name="email" placeholder="E-mail"><br> <br>
+        <input type="telefon" name="telenon" placeholder="Telefon"><br><br>
         <input type="hidden" name="form-type" value="kontakt">
-        <textarea name="message" placeholder="Vaše zpráva"></textarea><br>
+        <textarea name="message" placeholder="Vaše zpráva"></textarea><br> <br>
         <!-- <input type="submit" value="Registrovat"> -->
         <button>Odeslat</button>
      </form> <br> <br>

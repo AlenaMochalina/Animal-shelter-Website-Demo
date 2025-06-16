@@ -58,7 +58,9 @@ if (mysqli_num_rows($result) > 0) {
         echo "<tr>";
          // Cesta k obrázkům 
         $cestaKObrazku = "../image-library/" . htmlspecialchars($row["obrazek"]);
-        echo "<td><img src='" . $cestaKObrazku . "' alt='zvíře' width='100'></td>";
+        echo "<td> <a href='$cestaKObrazku' data-lightbox='zvire' data-title='" . htmlspecialchars($row["Plemeno"]) . "'>
+            <img src='$cestaKObrazku' alt='zvíře' width='100'>
+        </a></td>";
         echo "<td>" . htmlspecialchars($row["Plemeno"]) . "</td>";
         echo "<td>" . htmlspecialchars($row["Popis"]) . "</td>";
         echo "<td>" . htmlspecialchars($row["Věk"]) . "</td>";

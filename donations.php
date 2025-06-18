@@ -16,6 +16,7 @@
      Napiště nám, jakou pomoc nám můžete nabídnout.
 
     </p>
+    <div style="text-align: center;">
     <h2>Vyplnte formulář a my se Vám ozveme</h2>
     <form>
         <input type="text" name="first_name" placeholder="Křestní jméno"><br><br>
@@ -28,6 +29,7 @@
         <button>Odeslat</button>
      </form> <br> <br>
     <a href="mainPage.php">Zpět na úvodní stránku</a>
+</div>
 </div>
         
 </html>

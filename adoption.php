@@ -43,9 +43,11 @@
     
     <div class ="container">
     <h1> Naši kamarádi hledají domov</h1>
+ <div style="text-align: center;">
     <img src="shelter-16.jpg" style="width:20%;" alt="">
     <img src="shelter-17.jpg" style="width:20%;" alt="">
     <img src="shelter-18.jpg" style="width:20%;" alt="">
+       </div>
     <p>Podívejte se na naše úžasné chlupaté kamarády, kteří čekají na nový domov.
         Pokud vás některý z nich zaujal, neváhejte vyplnit adopční formulář.</p>
 
@@ -54,6 +56,7 @@
      // Dotaz na 7 zvířat
 $sql = "SELECT Plemeno, Popis, Věk, obrazek FROM adopce LIMIT 7";
 $result = mysqli_query($connection, $sql);
+
 
      // HTML tabulka
 echo "<table border='1'>";
@@ -82,6 +85,7 @@ echo "</table>";
 mysqli_close($connection);
 ?>
 
+<div style="text-align: center;">
      <h2>Adopční formulář</h2>
     <form>
         <input type="text" name="first_name" placeholder="Křestní jméno"><br> <br>
@@ -98,6 +102,7 @@ mysqli_close($connection);
     <br>
     <br>
     <br>
+    </div>
     </div>
 </body>
 </html>
